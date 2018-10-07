@@ -8,3 +8,5 @@
 * **modyfikacja pliku, ktory jest tutaj ;)**
 
 kolejna modyfikacja pliku
+
+cos po raz kolejny
