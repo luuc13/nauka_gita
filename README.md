@@ -10,3 +10,5 @@
 kolejna modyfikacja pliku
 
 cos po raz kolejny
+
+dodalem kolejna modyfikacje
