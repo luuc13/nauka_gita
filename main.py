@@ -1,16 +1,53 @@
-#samochody = ['syrena', 'garbus', 'maluch', 'mini']
-#ilosc = [3,2,2,2]
+#imie = 'LUKASZ'
+#marka = 'fiat 126p'
+#ilosc_drzwi = 2
 
-#for nr in range( len(samochody) ) :
-#	print("nr" + " " + str(nr) + ":" + " " + samochody[nr])
-#	print(samochody[nr] + " ma ilosc drzwi " + str(ilosc[nr])) 
+#pojemnosc = 1.5
+
+#marka_l = marka.lower()
+#marka_h = marka.upper()
+
+#print('witaj' + ' ' + imie)
+#print('najlepszy na swiecie jest' + ' ' + marka + ' ' + 'ktora ma' + ' ' + str(ilosc_drzwi) + ' ' + 'drzwi')
+#print(marka.upper())
+#print(imie.lower())
+
+#for s in samoloty:
+#    print(s)
+
+#for il in ilosc_miejsc:
+#    print(il)
+
+#samoloty = ['boing', 'f16']
+#ilosc_miejsc = [300, 2]
+
+#print('Dlugosc: {0}'.format(len(samoloty)))
+
+#for idx in range (len(samoloty)):
+#     print( "idx:" + str(idx) + ":" + samoloty[idx])
+#     print(samoloty[idx] + ' ' + "ma ilosc miejsc" + ' ' + str(ilosc_miejsc[idx]))
+
+#quad = {'name': 'kawassaki',
+#        'przebieg': 1000,
+#        'liczba_miejsc': 1}
+
+#print(quad['name'])
+
+#for key, value in quad.iteritems():
+#    print("{0}:{1}".format(key, value))
+
+#for key in quad:
+#    print("{0}:{1}".format(key, quad[key]))
 
 
-li=['syrena', 'garbus', 'maluch', 'mini']
-for i in li:
-	marka_samochodu=raw_input("Podaj marke samochodu:")
-	if marka_samochodu in li:
-		        print("znam ja")
-        else:
-	        li.append(marka_samochodu)
-		print("nie znam")touch 
+def print_dict(d):
+    for key, value in d.iteritems():
+        print("{0}:{1}".format(key, value))
+
+if __name__ == "__main__":
+    quad = {'name': 'kawassaki',
+            'przebieg': 1000,
+            'liczba_miejsc': 1}
+
+    print_dict(quad)
+    print_dict(quad)
